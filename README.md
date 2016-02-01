@@ -1,4 +1,5 @@
 # Angular 2.0 with TypeScript Lab
+## https://github.com/JeremyLikness/Ng2TypeScriptLab
 
 This lab is based on the [Angular 2.0 with TypeScript](http://jeremylikness.github.io/Ng2TypeScriptPrez) presentation.
 

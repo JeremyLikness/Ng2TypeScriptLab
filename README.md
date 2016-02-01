@@ -10,7 +10,9 @@ Install these tools to build your first Angular application.
 
 Visual Studio Code is a free, open source, cross-platform Interactive Development 
 Environment (IDE) for building and debugging web applications. To install 
-Visual Studio Code, [click here](https://code.visualstudio.com/).
+Visual Studio Code, [click here](https://code.visualstudio.com/). You may use an 
+IDE of your choice if you prefer, as the main tasks will be command-line driven 
+for this tutorial.
 
 ### Node.js 
 

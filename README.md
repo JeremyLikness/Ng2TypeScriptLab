@@ -124,6 +124,11 @@ command prompt, execute the following:
 
 `npm install` 
 
+*Note: you may receive lots of errors during the install. These are often dependencies in  
+libraries that don't impact you because you are not building those libraries but only 
+referencing them. As long as the final lines of the output are not errors, you are fine.
+If the final lines are errors it is something to troubleshoot.*
+
 ### Configure the TypeScript Compiler 
 
 The TypeScript compiler is capable of processing various libraries and compiling to

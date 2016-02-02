@@ -134,7 +134,7 @@ apps that will run on the current available web browsers.
 
     {
         "compilerOptions": {
-            "target": "ES5",
+            "target": "es5",
             "module": "system",
             "moduleResolution": "node",
             "sourceMap": true,
@@ -214,6 +214,8 @@ and ending `body` tags:
 
 Save the file. The script should automatically detect the file change and refresh
 the page. You should see the title `Hello, Angular 2 World!` in your web browser.
+*Note: you may need to use a modern edge version of a browser. Certain older versions
+of Internet Explorer are not supported by Angular.*
 
 ## Part 3: Displaying Data 
 
@@ -289,7 +291,8 @@ compile and refresh with a shopping list.
 
 Next, update the shopping list so you can mark an item by tapping
 or clicking on it. First, add the following method to the 
-`ShoppingList` class (methods are defined at the same level as 
+`ShoppingList` class in the `ShoppingList.ts` file (methods are defined at the 
+same level as 
 the constructor definition): 
 
     toggleItem(item: IListItem): void {
@@ -297,7 +300,8 @@ the constructor definition):
     }
 
 Now update the template to call the method by handling a click 
-event on the `div` element in the `shoppinglist.html` template:
+event on the `div` element in the `shoppinglist.html` template as
+part of the opening `div` tag:
 
 `(click)="toggleItem(item)"`
 
@@ -366,3 +370,6 @@ element). This allows you to prevent clicking the button if the
 control is invalid (in this case, the `required` tag means the 
 user must enter some text before it is valid). 
 
+For explicit forms, refer to the [FormBuilder Documentation](https://angular.io/docs/ts/latest/api/common/FormBuilder-class.html).
+
+For a data-binding cheat sheet, refer to [this slide](http://jeremylikness.github.io/Ng2TypeScriptPrez/#slide-12).
